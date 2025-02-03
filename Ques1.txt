@@ -1,0 +1,39 @@
+Ques 1-  What is HTML, and how is an HTML document structured?
+
+Sol - HTML (HyperText Markup Language) is the standard language used to create and structure web pages. It defines the elements that make up a webpage, such as headings, paragraphs, links, images, and other content.
+
+Key Features of HTML
+    1. Markup Language – HTML uses tags to define elements in a document.
+    2. Hypertext – HTML allows linking between different web pages using <a> (anchor) tags.
+    3. Platform-Independent – HTML works on all devices and web browsers.
+    4. Semantic Elements – Elements like <article>, <section>, and <aside> improve readability and SEO.
+    5. Media Support – HTML supports images, audio, video, and interactive elements.
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Hello World</h1>
+    </header>
+
+        <section>
+            <h2>About This Page</h2>
+            <p>This is a simple HTML page structure.</p>
+        </section>
+    
+    
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+
+</body>
+</html>

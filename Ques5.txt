@@ -1,0 +1,40 @@
+Ques - Why do we use meta tags?
+
+SOl- Meta tags provide important metadata (information about the webpage) to browsers and search engines.
+    Meta tags play a crucial role in web development by 
+    providing essential information about a webpage . They are placed inside 
+    the <head> section of an HTML document and do not appear on the webpage itself but influence how 
+    the page is interpreted and displayed.
+
+    Common Meta Tags and their uses-
+    1. Charset -  Specifies character encoding for text display.
+                    <meta charset="UTF-8"> 
+    2. Viewport - Controls page scaling for responsive design.
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    3. Description - Provides a brief page summary for search engines.
+                     <meta name="description" content="Learn HTML and web development easily.">
+    4. Keywords - Lists keywords related to the page .
+                  <meta name="keywords" content="HTML, web development, coding">
+
+
+    EX - 
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Learn HTML, CSS, and JavaScript with easy tutorials and examples.">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+        <meta name="author" content="John Doe">
+       
+        <title>HTML Meta Tags Guide</title>
+
+    </head>
+
+    <body>
+
+        <h1>Meta Tags in HTML</h1>
+    </body>
+    </html>
